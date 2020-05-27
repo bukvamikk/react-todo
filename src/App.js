@@ -5,7 +5,7 @@ import TodoItem from "./TodoItem";
 export default function App() {
   return (
     <div className="ToDo App">
-      <div>
+      <div className="todo-list">
         <TodoItem />
         <TodoItem />
         <TodoItem />

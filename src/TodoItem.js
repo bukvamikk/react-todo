@@ -2,8 +2,8 @@ import React from "react";
 
 function TodoItem() {
   return (
-    <label style={{ display: "block" }}>
-      <input type="checkbox" />
+    <label className="todo-item">
+      <input className="my-checkbox" type="checkbox" />
       Something to do
     </label>
   );
