@@ -11,8 +11,7 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: left;
   border: 1px solid #efefef;
   width: 360px;
   box-shadow:
@@ -26,7 +25,7 @@ body {
 
 .todo-item {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   border-bottom: 1px solid #eee;
 }
